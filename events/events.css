@@ -67,3 +67,10 @@ section .btn:hover{
     text-align: center;
     margin-bottom: 50px;
 }
+
+#events{
+    margin-bottom: 50px;
+}
+
+#container p { display: inline }
+
