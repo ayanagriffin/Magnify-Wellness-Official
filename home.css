@@ -231,7 +231,7 @@ section .btn:hover{
 
 /* -------------------------------- MISSION STATEMENT PAGE ------------------------------- */
 
-#mission {
+#mission, #redirect {
     height: 100vh;
     background-color: white;
     text-align: center;
@@ -242,12 +242,12 @@ section .btn:hover{
     position: relative;
 }
 
-#mission h1{
+#mission h1, #redirect h1{
     font-size: 2.5rem;
     top: 20vh;
 }
 
-#mission h2{
+#mission h2, #redirect h2{
     padding-top: 4rem;
     font-size: 2rem;
     font-weight: 500;
@@ -478,7 +478,7 @@ section .btn:hover{
 
 .btn.blog-btn{
     margin: calc(max(5vh, 40px));
-    color: #000;
+    color: #33cccc;
     font-weight: 600;
     background-color: #fff;
     border: 2px solid #33CCCC;
